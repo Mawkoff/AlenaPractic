@@ -4,34 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./ccs/styles.css" />
     <title>Appello</title>
   </head>
-  <body>
-    <header>
-      <a href="./index.html"
-        ><img src="./img/logo.svg" alt="Logo" />
+  <body> 
+    <header class="header">
+      <div class="containet header-container">
+      <a href="./index.html" class="header-logo"
+        ><img src="./img/logo.svg" alt="Logo" width="27px" height="30px" class="header-img" />
         Appello
       </a>
       <nav>
-        <ul>
+        <ul class="header-list">
           <li>
-            <a href="">Home</a>
+            <a href="" class="header-nav-link">Home</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a href="" class="header-nav-link">Portfolio</a>
           </li>
           <li>
-            <a href="">Process</a>
+            <a href="" class="header-nav-link">Process</a>
           </li>
           <li>
-            <a href="">Team</a>
+            <a href="" class="header-nav-link">Team</a>
           </li>
           <li>
-            <a href="">Resources</a>
+            <a href="" class="header-nav-link">Resources</a>
           </li>
         </ul>
-        <button type="button">Get project quote</button>
+        <button type="button" class="header-btn">Get project quote</button>
       </nav>
+    </div>
     </header>
 
     <main>
